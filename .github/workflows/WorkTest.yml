@@ -34,3 +34,5 @@ jobs:
       - name: Build the Solution
         run: msbuild SigStat.sln
         
+      - name: Run test
+        run: dotnet test sigstat/test/SigStat.Common.Test/SigStat.Common.Test.csproj
