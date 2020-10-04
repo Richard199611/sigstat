@@ -35,6 +35,5 @@ jobs:
         run: msbuild SigStat.sln
         
       - name: Run Test
-        run: dotnet test './sigstat/test/SigStat.Common.Test'
-        
+        uses: zyborg/dotnet-tests-report@v1.0.0
         
