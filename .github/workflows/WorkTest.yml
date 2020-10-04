@@ -35,6 +35,5 @@ jobs:
         run: msbuild SigStat.sln
       
       - name: Run Test
-        #run: dotnet test --no-build SigStat.sln
-        run: dotnet test SigStat.sln
+        run: dotnet test --no-build SigStat.sln
         
