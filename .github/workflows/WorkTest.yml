@@ -33,7 +33,7 @@ jobs:
         
       - name: Build the Solution
         run: msbuild SigStat.sln
-        
+      
       - name: Run Test
-        uses: zyborg/dotnet-tests-report@v1.0.0
+        run: dotnet test "/sigstat/test/SigStat.Common.Test.csproj"
         
