@@ -34,4 +34,7 @@ jobs:
       - name: Build the Solution
         run: msbuild SigStat.sln
         
+      - name: Run Test
+        run: dotnet test 'sigstat/test/SigStat.Common.Test/Algorithms/DtwExperimentsTests.cs'
+        
         
