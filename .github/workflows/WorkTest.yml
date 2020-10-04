@@ -35,4 +35,4 @@ jobs:
         run: msbuild SigStat.sln
         
       - name: Run test
-        run: dotnet test
+        run: dotnet test SigStat.Common.Test.csproj
