@@ -36,5 +36,5 @@ jobs:
       
       - name: Run Test
         run: dotnet test
-        working-directory: test/SigStat.Common.Test
+        working-directory: test/
         
