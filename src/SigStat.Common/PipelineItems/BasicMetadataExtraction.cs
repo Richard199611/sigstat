@@ -24,7 +24,7 @@ namespace SigStat.Common
         public static double Trim { get; set; } = 0.05;
 
         /// <inheritdoc/>
-        public void Transform(Signature signature)
+        public void Transform(Signature signature) 
         {
             //TODO: Implementation was ported from older code. Needs revision
             var image = signature.GetFeature(Features.Image);
