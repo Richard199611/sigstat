@@ -7,7 +7,7 @@ using System.Collections.Generic;
 namespace SigStat.Common.Test.PipelineItem.Transforms
 {
     [TestClass]
-    public class CubicInterpolationTest
+    public class CubicInterpolationTest 
     {
         CubicInterpolation ci = new CubicInterpolation();
         CubicInterpolation ci2 = new CubicInterpolation();
