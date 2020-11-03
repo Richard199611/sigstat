@@ -176,7 +176,7 @@ namespace SigStat.Common.Algorithms
                 d = 0;//ez nehany metrikanal kell, pl Canberra 0,0 ban
             }
 
-            return d;
+            return d; 
         }
 
     }
